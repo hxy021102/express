@@ -26,12 +26,22 @@ function toggleOptions(s) {
 $('.selector button').click(function(e) {
     toggleOptions($(this).parent());
 });
+
 $('#1').click(function(e) {
-    window.location.href="./index_christmas.html";
+    window.location.href="./jiaob/index.html";
 });
 $('#2').click(function(e) {
-    window.location.href="./index_romantic.html";
+    window.location.href="./dhua/index.html";
 });
+$('#3').click(function(e) {
+    window.location.href="./three/index3.html";
+});
+$('#4').click(function(e) {
+    window.location.href="./swiper/index.html";
+});
+
+
+
 
 
 setTimeout(function() { toggleOptions('.selector'); }, 100);
